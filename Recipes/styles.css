@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.header,p, .img-container, h2, h3, h4, li {
+  text-align: center;
+}
+
+#recipe {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+}
+
+#recipe img {
+  width: 75%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 8px;
+  padding: 0 4px;
+  border-radius: 5px;
+}
+@media (max-width: 600px) {
+  #recipe img {
+width: 50;
+  }
+}
+@media (max-width: 800px) {
+  #recipe img {
+    width: 50%;
+  }
+}
+
+.anchor-size, p, h2, h3, h4, li {
+  font-size: 40px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+ display: block;
+  width: 50%;
+  margin: auto;
+  height: 2em;
+  font-size: 30px;
+}
